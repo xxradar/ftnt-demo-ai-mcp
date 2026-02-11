@@ -26,6 +26,10 @@ python mcp_server.py
 ```
 python mcp_server_rogue.py 
 ```
+### DesktopCommander
+```
+docker run -it -p 80:8081 --rm  xxradar/mcp-hackbot:latest  bash
+```
 ```
 npx -y @wonderwhy-er/desktop-commander@latest setup
 ```
