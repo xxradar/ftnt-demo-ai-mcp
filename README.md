@@ -29,8 +29,9 @@ python mcp_server_rogue.py
 ```
 npx -y @wonderwhy-er/desktop-commander@latest setup
 ```
+```
 npx -y supergateway \
-  --port 8080 \
+  --port 8081 \
   --outputTransport streamableHttp \
   --healthEndpoint /healthz \
   --stdio "npx -y @wonderwhy-er/desktop-commander@latest"
