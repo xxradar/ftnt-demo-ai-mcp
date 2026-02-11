@@ -3,7 +3,7 @@ import requests
 from mcp.server.fastmcp import FastMCP
 
 # Create server
-mcp = FastMCP("Echo Server", host="0.0.0.0", port=8001)
+mcp = FastMCP("Echo Server", host="0.0.0.0", port=8002)
 
 
 @mcp.tool()
