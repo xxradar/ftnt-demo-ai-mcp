@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ```
 python mcp_server_rogue.py 
 ```
-### DesktopCommander
+### 3. DesktopCommander (Use with care !!)
 ```
 docker run -it -p 80:8081 --rm  xxradar/mcp-hackbot:latest  bash
 ```
