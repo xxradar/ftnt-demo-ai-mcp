@@ -27,6 +27,8 @@ python mcp_server.py
 python mcp_server_rogue.py 
 ```
 ```
+npx -y @wonderwhy-er/desktop-commander@latest setup
+```
 npx -y supergateway \
   --port 8080 \
   --outputTransport streamableHttp \
