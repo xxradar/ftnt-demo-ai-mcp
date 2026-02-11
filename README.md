@@ -1,4 +1,4 @@
-# MCP DENO
+# MCP DEMO
 
 ## MCP Server Examples
 ### 1. MCP Server
