@@ -67,7 +67,7 @@ Inspector, a tool to interact with an MCP server
 npx @modelcontextprotocol/inspector
 ```
 ### VScode
-Create '`vscode/mcp.json`
+Create `vscode/mcp.json`
 ```
 xxxx
 ````
