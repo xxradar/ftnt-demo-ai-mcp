@@ -14,13 +14,24 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 ```
-cd example/mcp
+cd ftnt-demo-ai-mcp/example/mcp
 ```
 ```
 pip install -r requirements.txt
 ```
+## MCP Server Examples
 ```
 python mcp_server.py 
+```
+```
+python mcp_server_rogue.py 
+```
+```
+npx -y supergateway \
+  --port 8080 \
+  --outputTransport streamableHttp \
+  --healthEndpoint /healthz \
+  --stdio "npx -y @wonderwhy-er/desktop-commander@latest"
 ```
 
 ## Inspector
