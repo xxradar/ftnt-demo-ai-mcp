@@ -3,7 +3,7 @@
 ## MCP Server Examples
 ### 1. MCP Server
 ```
-docker run -it -p 81:8000 --rm  xxradar/mcp-hackbot:latest  bash
+docker run -it -p 81:8001 --rm  xxradar/mcp-hackbot:latest  bash
 ```
 ```
 git clone https://github.com/xxradar/ftnt-demo-ai-mcp.git
@@ -25,7 +25,7 @@ python mcp_server.py
 ```
 ### 2. MCP Server Rogue
 ```
-docker run -it -p 82:8001 --rm  xxradar/mcp-hackbot:latest  bash
+docker run -it -p 82:8002 --rm  xxradar/mcp-hackbot:latest  bash
 ```
 ```
 git clone https://github.com/xxradar/ftnt-demo-ai-mcp.git
