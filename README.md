@@ -1,8 +1,9 @@
 # MCP DENO
 
-## MCP Servers
+## MCP Server Examples
+### 1. MCP Server
 ```
-docker run -it -p 80:8000 --rm  xxradar/mcp-hackbot:latest  bash
+docker run -it -p 81:8000 --rm  xxradar/mcp-hackbot:latest  bash
 ```
 ```
 git clone https://github.com/xxradar/ftnt-demo-ai-mcp.git
@@ -19,9 +20,27 @@ cd ftnt-demo-ai-mcp/example/mcp
 ```
 pip install -r requirements.txt
 ```
-## MCP Server Examples
 ```
 python mcp_server.py 
+```
+### 2. MCP Server Rogue
+```
+docker run -it -p 82:8001 --rm  xxradar/mcp-hackbot:latest  bash
+```
+```
+git clone https://github.com/xxradar/ftnt-demo-ai-mcp.git
+```
+```
+python3 -m venv .venv
+```
+```
+source .venv/bin/activate
+```
+```
+cd ftnt-demo-ai-mcp/example/mcp
+```
+```
+pip install -r requirements.txt
 ```
 ```
 python mcp_server_rogue.py 
