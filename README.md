@@ -60,8 +60,15 @@ npx -y supergateway \
   --stdio "npx -y @wonderwhy-er/desktop-commander@latest"
 ```
 
-## Inspector
+## How to interact
+### Inspector
 Inspector, a tool to interact with an MCP server
 ```
 npx @modelcontextprotocol/inspector
 ```
+### VScode
+Create '`vscode/mcp.json`
+```
+xxxx
+````
+Start the server, you can now interact using Github Copilot
