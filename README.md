@@ -8,7 +8,7 @@ docker run -it -p 80:8000 --rm  xxradar/mcp-hackbot:latest  bash
 git clone https://github.com/xxradar/ftnt-demo-ai-mcp.git
 ```
 ```
-python -m venv .venv
+python3 -m venv .venv
 ```
 ```
 source .venv/bin/activate
