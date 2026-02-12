@@ -1,0 +1,12 @@
+FROM xxradar/mcp-hackbot:latest
+
+WORKDIR /app
+
+COPY requirements.txt .
+RUN pip install --no-cache-dir --break-system-packages -r requirements.txt
+
+COPY mcp_server_rogue.py .
+
+EXPOSE 8002
+
+CMD ["python", "mcp_server_rogue.py"]

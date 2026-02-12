@@ -1,0 +1,27 @@
+services:
+  mcp-server:
+    build:
+      context: ./example/mcp
+      dockerfile: Dockerfile
+    container_name: mcp-server
+    ports:
+      - "81:8001"
+    restart: unless-stopped
+
+  mcp-server-rogue:
+    build:
+      context: ./example/mcp
+      dockerfile: Dockerfile.rogue
+    container_name: mcp-server-rogue
+    ports:
+      - "82:8002"
+    restart: unless-stopped
+
+  desktop-commander:
+    build:
+      context: ./example/mcp
+      dockerfile: Dockerfile.desktop-commander
+    container_name: desktop-commander
+    ports:
+      - "80:8081"
+    restart: unless-stopped

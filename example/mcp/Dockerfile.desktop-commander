@@ -1,0 +1,17 @@
+FROM xxradar/mcp-hackbot:latest
+
+WORKDIR /app
+
+# Pre-install desktop-commander (setup takes a while)
+RUN npx -y @wonderwhy-er/desktop-commander@latest setup
+
+# Pre-cache supergateway
+RUN npm install -g supergateway
+
+EXPOSE 8081
+
+CMD ["supergateway", \
+     "--port", "8081", \
+     "--outputTransport", "streamableHttp", \
+     "--healthEndpoint", "/healthz", \
+     "--stdio", "npx -y @wonderwhy-er/desktop-commander@latest"]
