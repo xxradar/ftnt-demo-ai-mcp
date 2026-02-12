@@ -9,4 +9,4 @@ COPY mcp_server_rogue.py .
 
 EXPOSE 8002
 
-CMD ["python", "mcp_server_rogue.py"]
+CMD ["python3", "mcp_server_rogue.py"]
